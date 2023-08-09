@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Weather App",
+  "description": "Simple extension for weather display at users location",
+  "version": "1.0",
+  "permissions": ["geolocation", "activeTab"],
+  "icons": {
+    "64": "icon12.png"
+    
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+  
+  
+}
